@@ -217,9 +217,3 @@ async def health_check():
     Health check endpoint.
     """
     return {"status": "Application is running."}
-
-
-if __name__ == "__main__":
-    import uvicorn
-
-    uvicorn.run(app)
